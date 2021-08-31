@@ -1,0 +1,41 @@
+.modal-header {
+    background-image: url('../assets/bg-modal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.close {
+    margin: 5px;
+    color: white !important;
+}
+
+.avatar {
+    margin: auto;
+    margin-top: -50px;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.modal-info-card, .modal-episodes-card {
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*
+ *
+ */
+
+.interesting-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+}
